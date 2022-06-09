@@ -1,0 +1,17 @@
+{
+  "employees": [
+      {
+          "id": 1,
+          "name": "John",
+          "position": "manager"
+      }
+  ],
+  "shifts": [
+      {
+          "id": 1,
+          "date": "Mon Jun 27 2022",
+          "employee": "John",
+          "shift": "From 09:00 to 18:00"
+      }
+  ]
+}
