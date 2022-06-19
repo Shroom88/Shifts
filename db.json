@@ -3,10 +3,12 @@
       {
           "id": 1,
           "name": "John",
+          "email": "john@gmail.com",
+          "password": "pass",
           "position": "manager"
       }
   ],
-  "shifts": [
+  "schedule": [
       {
           "id": 1,
           "date": "Mon Jun 27 2022",

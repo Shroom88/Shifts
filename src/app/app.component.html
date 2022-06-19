@@ -1,23 +1,4 @@
+<app-header></app-header>
 
-<h1 class="text-2xl text-red-600">Working Shifts App</h1>
+<router-outlet></router-outlet>
 
-<button href="" type="button" (click)="next()" class="bg-green-500 font-bold text-2xl m-2 p-2">Next</button>
-<button href="" type="button" (click)="previous()" class="bg-red-500 font-bold text-2xl m-2 p-2">Previous</button>
-
-
-
-<main>
-    <div class="calendar">
-      <div class="month-indicator" >
-        <time datetime="2019-02">  </time>
-      </div>
-      <div class="day-of-week">
-        <div *ngFor="let item of weekdays">{{ item }} </div>
-      </div>
-      <div class="date-grid" >
-        <button *ngFor="let item of state">
-          <time> <a href="">{{item.getDate()}}</a></time>
-        </button>
-      </div>
-    </div>
-  </main>
